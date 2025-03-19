@@ -5,7 +5,7 @@
 #define WR 1 //pipe的write端
 
 int main(int argc, char const *argv[]) {
-    char buf = 'P'; //用于传送的字节
+    char buf = 'a'; //用于传送的字节
 
     int fd_c2p[2]; //子进程->父进程
     int fd_p2c[2]; //父进程->子进程
